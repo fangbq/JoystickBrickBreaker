@@ -3,19 +3,18 @@
 This is a little project that let you play classical game Brick Breaker with a small joystick.
 
 ## What you need?
-* [Arduino borad](https://www.arduino.cc/en/Main/Products){:target="_blank"} (uno, mega and due, etc...)
-* [JoyStick](http://wiki.dfrobot.com.cn/index.php?title=(SKU:DFR0061)JoyStick摇杆模块){:target="_blank"}
-* [USB Cable](https://www.adafruit.com/products/62){:target="_blank"} and [Dupont Lines](http://www.amazon.com/Qooltek-40pcs-Dupont-Female-Connector/dp/B0116IZ0UO){:target="_blank"}
+* <a href="https://www.arduino.cc/en/Main/Products" target="_blank">Arduino borad</a> (uno, mega and due, etc...)
+* <a href="http://wiki.dfrobot.com.cn/index.php?title=(SKU:DFR0061)JoyStick摇杆模块" target="_blank">Joystick</a>
+* <a href="https://www.adafruit.com/products/62" target="_blank">USB Cable</a> and <a href="http://www.amazon.com/Qooltek-40pcs-Dupont-Female-Connector/dp/B0116IZ0UO" target="_blank">Dupont Lines</a>
 
 ## How it works?
 
 First see how connect all the devices:
 
-![][id]
-[id]: https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/JoyStick%20Brick%20Breaker%20Structure.png?raw=true
+<img href="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/JoyStick%20Brick%20Breaker%20Structure.png?raw=true" target="_blank"/>
 
 Details between arduino board and joystick:
-![](https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/Arduino-JoyStick.png?raw=true)
+<img href="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/Arduino-JoyStick.png?raw=true" target="_blank"/>
 
 When the ①(player) control the ②(joystick), such as pushing and pulling, then the *control data* caught by arduino with a arduino program running on the ③(arduino board). This arduino program also pass the *control data* to ④(labtop) through usb cable.
 
@@ -40,12 +39,12 @@ void readData() {
 
 Then you can use the data to contol the board move to left and right by the serial protocol designed by yourself.
 
-![](https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/GameView.png?raw=true)
+<img href="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/GameView.png?raw=true" target="_blank"/>
 
 
 ## How to deploy?
-1. Load the arduino program `BrickBreaker_DataReader.ino` in the directory *src/BrickBreaker_DataReader* to your arduino board. ([Arduino Beginner](https://www.arduino.cc/en/Guide/HomePage)){:target="_blank"}
-2. Open `BrickBreaker_GameView.pde` with [Processing IDE](https://processing.org/download/?processing), then click run!
+1. Load the arduino program `BrickBreaker_DataReader.ino` in the directory *src/BrickBreaker_DataReader* to your arduino board. <a href="https://www.arduino.cc/en/Guide/HomePage" target="_blank">Arduino Beginner</a>
+2. Open `BrickBreaker_GameView.pde` with <a href="https://processing.org/download/?processing" target="_blank">Processing IDE</a>, then click run!
 
 	Notice:
 	
@@ -59,7 +58,7 @@ Then you can use the data to contol the board move to left and right by the seri
 // todo
 
 ## Reference
-* [Processing](https://processing.org){:target="_blank"} - it's an powerful programming language that helps you design interesting application fastly, such as Brick Breaker game.
-* [OpenProcessing](http://www.openprocessing.org){:target="_blank"} - OpenProcessing is a website to share Processing sketches. I got the src of the game Brick Breaker from [Brick Breaker](http://www.openprocessing.org/sketch/134612).
+* <a href="https://processing.org" target="_blank">Processing</a> - it's an powerful programming language that helps you design interesting application fastly, such as Brick Breaker game.
+* <a href="http://www.openprocessing.org" target="_blank">OpenProcessing</a> - OpenProcessing is a website to share Processing sketches. I got the src of the game Brick Breaker from <a href="http://www.openprocessing.org/sketch/134612" target="_blank">Brick Breaker</a>.
 
 
