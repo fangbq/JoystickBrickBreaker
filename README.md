@@ -14,7 +14,7 @@ First see how connect all the devices:
 <img src="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/JoyStick%20Brick%20Breaker%20Structure.png?raw=true"/>
 
 Details between arduino board and joystick:
-<img src=ttps://github.com/fangbq/JoystickBrickBreaker/blob/master/img/Arduino-JoyStick.png?raw=true"/>
+<img src="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/Arduino-JoyStick.png?raw=true"/>
 
 When the ①(player) control the ②(joystick), such as pushing and pulling, then the *control data* caught by arduino with a arduino program running on the ③(arduino board). This arduino program also pass the *control data* to ④(labtop) through usb cable.
 
