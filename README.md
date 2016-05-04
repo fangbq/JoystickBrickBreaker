@@ -11,10 +11,10 @@ This is a little project that let you play classical game Brick Breaker with a s
 
 First see how connect all the devices:
 
-![](/Users/apple/Desktop/JoyStick Brick Breaker.png)
+![](https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/JoyStick%20Brick%20Breaker%20Structure.png?raw=true)
 
 Details between arduino board and joystick:
-![]()
+![](https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/Arduino-JoyStick.png?raw=true)
 
 When the ①(player) control the ②(joystick), such as pushing and pulling, then the *control data* caught by arduino with a arduino program running on the ③(arduino board). This arduino program also pass the *control data* to ④(labtop) through usb cable.
 
@@ -39,7 +39,7 @@ void readData() {
 
 Then you can use the data to contol the board move to left and right by the serial protocol designed by yourself.
 
-![](/Users/apple/Desktop/gameview.png)
+![](https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/GameView.png?raw=true)
 
 
 ## How to deploy?
