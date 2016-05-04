@@ -52,7 +52,7 @@ Then you can use the data to contol the board move to left and right by the seri
 	######2. You may get errors or see nothing when you run the processing program `BrickBreaker_GameView.pde` or when you execute the exetuable files provided. The possible solution is to change the value of `portNumber` in line 61, then this processing program can get access to the right serial that communicates with your arduino board.
 
 ## Enjoy the game!
-// video here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xg7E_MGTf3k" frameborder="0" allowfullscreen></iframe>
 
 ## Extending with Buletooth
 // todo
