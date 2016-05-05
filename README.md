@@ -54,6 +54,7 @@ Then you can use the data to contol the board move to left and right by the seri
 ## Enjoy the game!
 
 Youtube:
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/Xg7E_MGTf3k)
 
 ## Extending with Buletooth
@@ -62,5 +63,3 @@ Youtube:
 ## Reference
 * <a href="https://processing.org">Processing</a> - it's an powerful programming language that helps you design interesting application fastly, such as Brick Breaker game.
 * <a href="http://www.openprocessing.org">OpenProcessing</a> - OpenProcessing is a website to share Processing sketches. I got the src of the game Brick Breaker from <a href="http://www.openprocessing.org/sketch/134612">Brick Breaker</a>.
-
-
