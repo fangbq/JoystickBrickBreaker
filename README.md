@@ -48,14 +48,14 @@ Then you can use the data to contol the board move to left and right by the seri
 
 	Notice:
 	
-	######1.	If you don't want to download processing ide, you can just run the executable file that suit to your os in directory *exe*.
-	######2. You may get errors or see nothing when you run the processing program `BrickBreaker_GameView.pde` or when you execute the exetuable files provided. The possible solution is to change the value of `portNumber` in line 61, then this processing program can get access to the right serial that communicates with your arduino board.
+	1.	If you don't want to download processing ide, you can just run the executable file that suit to your os in directory *exe*.
+	2. You may get errors or see nothing when you run the processing program `BrickBreaker_GameView.pde` or when you execute the exetuable files provided. The possible solution is to change the value of `portNumber` in line 61, then this processing program can get access to the right serial that communicates with your arduino board.
 
 ## Enjoy the game!
 
-Youtube:
+Youtube video demo:
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/Xg7E_MGTf3k)
+[JoyStick Brick Breaker Game Show](https://youtu.be/Xg7E_MGTf3k)
 
 ## Extending with Buletooth
 // todo
