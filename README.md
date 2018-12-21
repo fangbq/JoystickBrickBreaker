@@ -39,7 +39,7 @@ void readData() {
 
 Then you can use the data to contol the board move to left and right by the serial protocol designed by yourself.
 
-<img href="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/GameView.png?raw=true"/>
+<img src="https://github.com/fangbq/JoystickBrickBreaker/blob/master/img/GameView.png?raw=true"/>
 
 
 ## How to deploy?
