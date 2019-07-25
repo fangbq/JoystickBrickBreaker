@@ -1,6 +1,6 @@
 # Joystick Brick Breaker
 
-This is a little project that let you play classical game Brick Breaker with a small joystick.
+This is a small project that allows you to play a classical game Brick Breaker with a small joystick.
 
 ## What you need?
 * <a href="https://www.arduino.cc/en/Main/Products">Arduino borad</a> (uno, mega and due, etc...)
